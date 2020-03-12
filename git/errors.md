@@ -6,7 +6,7 @@ error: gpg failed to sign the data
 fatal: failed to write commit object
 ```
 
-## Resolução
+### Resolution
 
 1. **brew install gpg2**: installing the newest version of *gpg*
 2. **echo "test" | gpg2 --clearsign**: to be sure that *gpg2* is working
