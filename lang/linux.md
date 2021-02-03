@@ -31,9 +31,15 @@ Comment=AnyComment
 ## [TIP] Copy files from a folder to another
 
 ```bash
-$ cp -a /source/. /dest/
+$ cp -a source/. destination/
 // or
-$ rsync -a source/ destination
+$ rsync -a source/ destination/
 ```
 
 [Link 1](https://askubuntu.com/a/86844) | [Link 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/bash-commands-to-manage-directories-files/)
+
+## [TIP] Rename directory
+
+```bash
+$ mv oldname/ newname/
+```
