@@ -28,3 +28,12 @@ Comment=AnyComment
 [Link 1](https://askubuntu.com/questions/598195/how-to-add-a-script-to-startup-applications-from-the-command-line) | 
 [Link 2](https://unix.stackexchange.com/questions/497173/how-to-automatically-start-rescuetime-on-startup-tried-crontab-and-rc-local)
 
+## [TIP] Copy files from a folder to another
+
+```bash
+$ cp -a /source/. /dest/
+// or
+$ rsync -a source/ destination
+```
+
+[Link 1](https://askubuntu.com/a/86844) | [Link 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/bash-commands-to-manage-directories-files/)
