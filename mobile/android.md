@@ -1,3 +1,13 @@
+## [ERROR] cmdline-tools: could not determine SDK root
+
+Since new updates, there are some changes that are not mentioned in the documentation. 
+
+After unzipping the command line tools package, the top-most directory you'll get is `cmdline-tools`. 
+
+Rename the unpacked directory from cmdline-tools to tools, and place it under `$C:/Android/cmdline-tools`, so looks like `$C:/Android/cmdline-tools/tools`
+
+[Link 1](https://stackoverflow.com/a/65262939)
+
 ## [ERROR] Could not resolve project: *react-native-camera on Android*
 
 In `android/app/build.gradle`, add: 
