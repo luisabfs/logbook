@@ -24,6 +24,6 @@ Andersen's Log comprises two files: one for work, and one for personal projects.
 - try to document the purpose of the new piece of code, so you know why it's important to implement this part;
 - write down how hard you think the code is to complete;
 - document if you had multiple solutions and if a test comes up with a surprising result;
-⠀⠀⠀⠀⠀⠀⠀⠀⠀
-### 🔥 At the beginning of this README, you can see an example of how I do my Log. You can use it as a reference or elaborate yours from scratch. The main goal is that your Log fulfills your needs while building it remains comfortable.
+
+🔥 At the beginning of this README, you can see an example of how I do my Log. You can use it as a reference or elaborate yours from scratch. The main goal is that your Log fulfills your needs while building it remains comfortable.
 
