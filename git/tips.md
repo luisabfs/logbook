@@ -16,3 +16,10 @@ Once the branch is deleted from the remote repository, other machines involved i
 ```git fetch --all --prune```
 
 The `--prune` flag tells Git to remove all remote references (our branches) that no longer exist in the remote repository. When it comes to *flags*, we can use `--prune-tags`.
+
+
+## [TIP] Move all changes to a newly created branch
+
+Did you forget to create a new branch, and made all your changes in the master/wrong branch?
+
+```𝚐𝚒𝚝 𝚜𝚠𝚒𝚝𝚌𝚑 -𝚌 "𝚢𝚘𝚞𝚛_𝚗𝚎𝚠_𝚋𝚛𝚊𝚗𝚌𝚑"```
