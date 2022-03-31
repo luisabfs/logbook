@@ -30,7 +30,7 @@ yarn add body-parser
 ```
 ### 2. Configure two middlewares BEFORE defining our routes:
 
-```
+```javascript
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -42,4 +42,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json())
 ```
 
-[Link 1](https://stackoverflow.com/questions/9177049/express-js-req-body-undefined)
+[Link](https://stackoverflow.com/questions/9177049/express-js-req-body-undefined)
+
+## [WARNING] Mongoose: looks like you're trying to test a Mongoose app with Jest's default jsdom test environment
+
+Add the flag `--testEnvironment=node` to test script on package.json 
+
+```json
+"scripts": {
+    "test": "jest --testEnvironment=node --verbose --forceExit --watchAll --maxWorkers=1"
+ }
+ ```
+[Link](https://stackoverflow.com/a/62190431)
