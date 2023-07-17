@@ -18,3 +18,9 @@ widgetNumber === 10 ? <MyComponent /> : null
 Every. Single. Time. Please. For the love of React Native.
   
 [Link](https://stackoverflow.com/a/59108109)
+
+## [TIP] React Native Paper: Accordion.Item with inherited margin left from Accordion.List with left icon
+
+Wrap `Accordion.List` children with Fragments! **Fragments don't inherit the styling props from their parent components.**
+
+[Link](https://stackoverflow.com/a/71400227)
