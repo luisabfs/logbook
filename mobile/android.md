@@ -24,5 +24,24 @@ defaultConfig {
 
 Basically, the device I was using didn't have enough storage space for the APK to install.
 
-[Link 1](https://stackoverflow.com/questions/54461288/installation-failed-with-message-error-android-os-parcelableexception-java-io)
+[Link](https://stackoverflow.com/questions/54461288/installation-failed-with-message-error-android-os-parcelableexception-java-io)
 
+## [TIP] Change the navigation bar color where 'Home' and 'Back' buttons are
+
+The property is called **navigationBarColor**. You can change it with a few options:
+
+1. For those using `react-navigation v6`: 
+    ```
+    // in Navigator
+    screenOptions={{navigationBarColor: 'gold'}}
+    ```
+2. For those using `react-native-cli`:
+   ```
+   // in android/app/src/main/res/values/styles.xml
+   <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:navigationBarColor">#0D0D0D</item> <!--  ADD THIS LINE TO YOUR styles.xml    -->
+    </style>
+   ```
+3. Add a plugin: https://github.com/thebylito/react-native-navigation-bar-color
+
+[Link](https://stackoverflow.com/a/76516299/9725247)
